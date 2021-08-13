@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de <GifGrid /> Debe de mostrar items cuando se cargan las imagenes useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Goku
+  </h3>
+  <div
+    className="card-grid animate__fadeIn"
+  >
+    <GifGridItem
+      img={
+        Object {
+          "id": "ABC",
+          "title": "Yolo",
+          "url": "https://api.yolo.jpg",
+        }
+      }
+      key="ABC"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas de <GifGrid /> toMatchSnapshot 1`] = `
+<Fragment>
+  <h3>
+    Goku
+  </h3>
+  <p>
+    Loading
+  </p>
+  <div
+    className="card-grid animate__fadeIn"
+  />
+</Fragment>
+`;
